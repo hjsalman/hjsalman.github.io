@@ -10,20 +10,18 @@
             padding: 0;
         }
 
-        /* Apply black background to the whole page */
+        /* Apply 3D animated background */
         body {
-            background-color: #000;
-            color: #fff; /* Set text color to white */
-            font-family: 'Your Cool Font', sans-serif; /* Replace 'Your Cool Font' with the actual cool font you want to use */
-            font-size: 36px; /* Adjust the font size as needed */
-            text-align: center; /* Center the text horizontally */
-            text-shadow: 0 0 10px #fff; /* Add a white glowy text shadow */
+            background: linear-gradient(45deg, #000, #222, #000, #222);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s infinite;
+            background-attachment: fixed;
         }
 
         /* Style the top navigation bar */
         nav {
-            background-color: #ccc; /* Grayish background color */
-            padding: 10px 0;
+            background-color: #333; /* Dark gray background color */
+            padding: 15px 0; /* Slightly larger top and bottom padding */
             text-align: left; /* Align tabs to the left */
         }
 
@@ -37,8 +35,8 @@
 
         ul li {
             margin-right: 20px;
-            font-size: 24px; /* Same font size as other tabs */
-            color: #444; /* Darker color for tabs */
+            font-size: 24px; /* Slightly larger font size */
+            color: #fff; /* White text color */
         }
 
         /* Add hover effect to navigation buttons */
@@ -65,11 +63,23 @@
 
         /* Style the "Hammam Salman" text on the home page */
         #home-text {
-            font-size: 48px; /* Larger font size */
+            font-size: 32px; /* Smaller font size */
             position: absolute;
-            top: 50%; /* Center vertically */
-            left: 50%; /* Center horizontally */
-            transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+            top: 60px; /* Adjust the vertical position */
+            left: 20px; /* Adjust the horizontal position */
+        }
+
+        /* 3D animated background animation */
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
         }
     </style>
 </head>
