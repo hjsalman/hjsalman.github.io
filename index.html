@@ -48,12 +48,9 @@
             padding: 20px;
         }
 
-        /* Style the "Home" text on the background */
-        #home-text {
+        /* Style the "Home" tab */
+        #home-tab {
             font-size: 24px; /* Smaller font size */
-            position: absolute;
-            top: 50px;
-            left: 50px;
         }
 
         /* 3D entrance effect */
@@ -71,6 +68,15 @@
         body {
             animation: fadeIn 1s;
         }
+
+        /* Style the "Hammam Salman" text on the home page */
+        #home-text {
+            font-size: 48px; /* Larger font size */
+            position: absolute;
+            top: 200px; /* Adjust the vertical position as needed */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+        }
     </style>
 </head>
 
@@ -78,6 +84,7 @@
     <!-- Top Navigation Bar -->
     <nav>
         <ul>
+            <li id="home-tab">Home</li>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -86,11 +93,9 @@
 
     <!-- Main Content -->
     <div class="content">
-        <!-- Add your content here -->
+        <!-- "Hammam Salman" text on the home page -->
+        <div id="home-text">Hammam Salman</div>
     </div>
-
-    <!-- "Hammam Salman" text on the background -->
-    <div id="home-text">Hammam Salman</div>
 </body>
 
 </html>
