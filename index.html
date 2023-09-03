@@ -24,17 +24,21 @@
         nav {
             background-color: #ccc; /* Grayish background color */
             padding: 10px 0;
-            text-align: center;
+            text-align: left; /* Align tabs to the left */
         }
 
         /* Style the navigation buttons */
         ul {
             list-style-type: none;
+            display: flex; /* Use flexbox for spacing */
+            justify-content: flex-start; /* Align tabs to the left */
+            padding-left: 20px; /* Add spacing from the left */
         }
 
         ul li {
-            display: inline;
             margin-right: 20px;
+            font-size: 24px; /* Same font size as Home tab */
+            color: #444; /* Darker color for tabs */
         }
 
         /* Add hover effect to navigation buttons */
@@ -50,7 +54,7 @@
 
         /* Style the "Home" tab */
         #home-tab {
-            font-size: 24px; /* Smaller font size */
+            font-size: 24px; /* Same font size as other tabs */
         }
 
         /* 3D entrance effect */
@@ -85,9 +89,9 @@
     <nav>
         <ul>
             <li id="home-tab">Home</li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
         </ul>
     </nav>
 
