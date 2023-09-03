@@ -46,6 +46,28 @@
         .content {
             padding: 20px;
         }
+
+        /* Style the "Home" tab */
+        #home-tab {
+            font-size: 24px; /* Smaller font size */
+            float: left; /* Position to the left */
+        }
+
+        /* 3D entrance effect */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateZ(-100px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateZ(0);
+            }
+        }
+
+        body {
+            animation: fadeIn 1s;
+        }
     </style>
 </head>
 
@@ -53,7 +75,7 @@
     <!-- Top Navigation Bar -->
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li id="home-tab">Hammam Salman</li>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -62,7 +84,6 @@
 
     <!-- Main Content -->
     <div class="content">
-        <h1>Hammam Salman</h1>
         <!-- Add your content here -->
     </div>
 </body>
