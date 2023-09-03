@@ -88,10 +88,10 @@
     <!-- Top Navigation Bar -->
     <nav>
         <ul>
-            <li id="home-tab"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li id="home-tab"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -99,7 +99,41 @@
     <div class="content">
         <!-- "Hammam Salman" text on the home page -->
         <div id="home-text">Hammam Salman</div>
-    </div>
-</body>
 
-</html>
+        <!-- About Page Content -->
+        <div id="about" style="display: none;">
+            <!-- Add your content about yourself here -->
+        </div>
+
+        <!-- Portfolio Page Content -->
+        <div id="portfolio" style="display: none;">
+            <!-- Add your portfolio items and descriptions here -->
+        </div>
+
+        <!-- Contact Page Content -->
+        <div id="contact" style="display: none;">
+            <!-- Add your contact information and a contact form here if desired -->
+        </div>
+    </div>
+
+    <!-- JavaScript for Tab Click Handling -->
+    <script>
+        // Function to show/hide content based on tab clicks
+        function showContent(tabId) {
+            var contentDivs = document.querySelectorAll('.content > div');
+            for (var i = 0; i < contentDivs.length; i++) {
+                contentDivs[i].style.display = 'none';
+            }
+            document.getElementById(tabId).style.display = 'block';
+        }
+
+        // Add click event listeners to tabs
+        document.getElementById('home-tab').addEventListener('click', function () {
+            showContent('home-text');
+        });
+        document.querySelector('ul li:nth-child(2)').addEventListener('click', function () {
+            showContent('about');
+        });
+        document.querySelector('ul li:nth-child(3)').addEventListener('click', function () {
+            showContent('portfolio');
+       
