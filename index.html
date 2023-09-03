@@ -1,18 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>CSCE 190: Hammam Salman</title>
     <style>
-      /* CSS to style the "Hammam Salman" text */
-      h1 {
-        font-family: 'Your Cool Font', sans-serif; /* Replace 'Your Cool Font' with the actual cool font you want to use */
-        font-size: 36px; /* Adjust the font size as needed */
-        color: #ff6600; /* Change the font color to a cool color */
-        text-align: center; /* Center the text horizontally */
-      }
+        /* Reset default margin and padding */
+        body, h1, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Apply black background to the whole page */
+        body {
+            background-color: #000;
+            color: #fff; /* Set text color to white */
+            font-family: 'Your Cool Font', sans-serif; /* Replace 'Your Cool Font' with the actual cool font you want to use */
+            font-size: 36px; /* Adjust the font size as needed */
+            text-align: center; /* Center the text horizontally */
+            text-shadow: 0 0 10px #fff; /* Add a white glowy text shadow */
+        }
+
+        /* Style the top navigation bar */
+        nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* Style the navigation buttons */
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        /* Add hover effect to navigation buttons */
+        ul li:hover {
+            text-decoration: underline;
+        }
+
+        /* Style the main content */
+        .content {
+            padding: 20px;
+        }
     </style>
-  </head>
-  <body>
-    <h1>Hammam Salman</h1>
-  </body>
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Hammam Salman</h1>
+        <!-- Add your content here -->
+    </div>
+</body>
+
 </html>
