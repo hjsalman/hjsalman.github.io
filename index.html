@@ -47,16 +47,6 @@
             color: #ff6600; /* Change text color on hover */
         }
 
-        /* Style the main content */
-        .content {
-            padding: 20px;
-        }
-
-        /* Style the "Home" tab */
-        #home-tab {
-            font-size: 24px; /* Same font size as other tabs */
-        }
-
         /* 3D entrance effect */
         @keyframes fadeIn {
             0% {
@@ -77,9 +67,9 @@
         #home-text {
             font-size: 48px; /* Larger font size */
             position: absolute;
-            top: 200px; /* Adjust the vertical position as needed */
+            top: 50%; /* Center vertically */
             left: 50%; /* Center horizontally */
-            transform: translateX(-50%); /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center both horizontally and vertically */
         }
     </style>
 </head>
@@ -88,10 +78,7 @@
     <!-- Top Navigation Bar -->
     <nav>
         <ul>
-            <li id="home-tab"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li id="home-tab">Home</li>
         </ul>
     </nav>
 
@@ -99,41 +86,7 @@
     <div class="content">
         <!-- "Hammam Salman" text on the home page -->
         <div id="home-text">Hammam Salman</div>
-
-        <!-- About Page Content -->
-        <div id="about" style="display: none;">
-            <!-- Add your content about yourself here -->
-        </div>
-
-        <!-- Portfolio Page Content -->
-        <div id="portfolio" style="display: none;">
-            <!-- Add your portfolio items and descriptions here -->
-        </div>
-
-        <!-- Contact Page Content -->
-        <div id="contact" style="display: none;">
-            <!-- Add your contact information and a contact form here if desired -->
-        </div>
     </div>
+</body>
 
-    <!-- JavaScript for Tab Click Handling -->
-    <script>
-        // Function to show/hide content based on tab clicks
-        function showContent(tabId) {
-            var contentDivs = document.querySelectorAll('.content > div');
-            for (var i = 0; i < contentDivs.length; i++) {
-                contentDivs[i].style.display = 'none';
-            }
-            document.getElementById(tabId).style.display = 'block';
-        }
-
-        // Add click event listeners to tabs
-        document.getElementById('home-tab').addEventListener('click', function () {
-            showContent('home-text');
-        });
-        document.querySelector('ul li:nth-child(2)').addEventListener('click', function () {
-            showContent('about');
-        });
-        document.querySelector('ul li:nth-child(3)').addEventListener('click', function () {
-            showContent('portfolio');
-       
+</html>
