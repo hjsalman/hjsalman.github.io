@@ -40,6 +40,7 @@
         /* Add hover effect to navigation buttons */
         ul li:hover {
             text-decoration: underline;
+            color: #ff6600; /* Change text color on hover */
         }
 
         /* Style the main content */
@@ -47,11 +48,12 @@
             padding: 20px;
         }
 
-        /* Style the "Home" tab */
-        #home-tab {
+        /* Style the "Home" text on the background */
+        #home-text {
             font-size: 24px; /* Smaller font size */
-            float: left; /* Position to the left */
-            margin-left: 20px; /* Add space to the left */
+            position: absolute;
+            top: 50px;
+            left: 50px;
         }
 
         /* 3D entrance effect */
@@ -76,10 +78,9 @@
     <!-- Top Navigation Bar -->
     <nav>
         <ul>
-            <li id="home-tab">Hammam Salman</li>
-            <li></li> <!-- Empty tab -->
-            <li></li> <!-- Empty tab -->
-            <li></li> <!-- Empty tab -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -87,6 +88,9 @@
     <div class="content">
         <!-- Add your content here -->
     </div>
+
+    <!-- "Hammam Salman" text on the background -->
+    <div id="home-text">Hammam Salman</div>
 </body>
 
 </html>
