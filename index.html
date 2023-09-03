@@ -12,16 +12,17 @@
 
         /* Apply 3D animated background */
         body {
-            background: linear-gradient(45deg, #000, #222, #000, #222);
+            background: linear-gradient(45deg, #111, #333, #111, #333);
             background-size: 400% 400%;
             animation: gradientAnimation 10s infinite;
             background-attachment: fixed;
+            margin: 0; /* Remove default body margin */
         }
 
         /* Style the top navigation bar */
         nav {
-            background-color: #333; /* Dark gray background color */
-            padding: 15px 0; /* Slightly larger top and bottom padding */
+            background-color: #222; /* Darker gray background color */
+            padding: 20px 0; /* Larger top and bottom padding */
             text-align: left; /* Align tabs to the left */
         }
 
@@ -65,7 +66,7 @@
         #home-text {
             font-size: 32px; /* Smaller font size */
             position: absolute;
-            top: 60px; /* Adjust the vertical position */
+            top: 80px; /* Adjust the vertical position for more space */
             left: 20px; /* Adjust the horizontal position */
         }
 
