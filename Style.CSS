@@ -2,8 +2,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f6f8fa; /* GitHub background color */
-  color: #24292e; /* GitHub text color */
+  background-color: #f8f9fa; /* Light background color */
+  color: #343a40; /* Dark text color */
 }
 
 .container {
@@ -12,42 +12,49 @@ body {
 }
 
 header {
-  background-color: #0366d6; /* GitHub header background color */
-  padding: 10px;
+  background-color: #007bff; /* Blue header background color */
+  padding: 20px;
   text-align: center;
-  color: #ffffff; /* GitHub header text color */
+  color: #ffffff; /* White header text color */
 }
 
 h1 {
   font-size: 2em;
+  margin-bottom: 20px;
 }
 
-nav {
-  background-color: #f1f8ff; /* GitHub navigation background color */
-  padding: 10px;
+.assign {
+  background-color: #ffffff; /* White background for each assignment section */
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #dee2e6; /* Light border color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
 }
 
-nav a {
+.assign img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.assign-det {
+  color: #495057; /* Dark text color for assignment details */
+}
+
+a {
+  color: #007bff; /* Blue link color */
   text-decoration: none;
-  color: #0366d6; /* GitHub link color */
-  margin: 0 10px;
 }
 
-nav a:hover {
+a:hover {
   text-decoration: underline;
 }
 
-.section {
-  background-color: #ffffff; /* GitHub section background color */
-  padding: 20px;
-  margin: 10px 0;
-  border: 1px solid #e1e4e8; /* GitHub border color */
-  border-radius: 5px;
-}
-
-.footer {
-  background-color: #24292e; /* GitHub footer background color */
-  color: #ffffff; /* GitHub footer text color */
+footer {
+  background-color: #007bff; /* Blue footer background color */
+  color: #ffffff; /* White footer text color */
   text-align: center;
   padding: 10px;
   position: fixed;
