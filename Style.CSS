@@ -1,28 +1,31 @@
 body {
-  background: AFFF16;
+  background: #AFFF16;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
-  color: black;
+  color: white;
   text-align: center;
 }
+
 a {
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
 }
+
 a:hover {
   color: #AFFF16;
 }
 
 .assign {
- background-color: gray;
+  background-color: gray;
   margin: 10px;
   padding: 10px;
   display: flex;
-  border-radius: 20px
-
+  border-radius: 20px;
 }
-.assign img:{
+
+.assign img {
   width: 200px;
   padding: 10px;
   border: 2px solid midnightblue;
