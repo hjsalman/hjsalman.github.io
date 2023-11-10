@@ -6,17 +6,17 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f4f4f4; /* Light gray background */
             margin: 0;
             padding: 20px;
             box-sizing: border-box;
         }
 
         .image-container {
-            max-width: 400px;
+            max-width: 300px; /* Adjust maximum width as needed */
             margin: 0 auto;
             padding: 20px; /* Adjust padding as needed */
-            background-color: #fff; /* Optional: Add a background color */
+            background-color: #fff; /* White background */
             border-radius: 8px; /* Optional: Add rounded corners to the container */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
             margin-bottom: 20px;
