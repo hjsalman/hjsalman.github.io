@@ -1,38 +1,58 @@
 body {
-  background: #AFFF16;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f8fa; /* GitHub background color */
+  color: #24292e; /* GitHub text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0366d6; /* GitHub header background color */
+  padding: 10px;
+  text-align: center;
+  color: #ffffff; /* GitHub header text color */
 }
 
 h1 {
-  color: white;
-  text-align: center;
+  font-size: 2em;
 }
 
-a {
+nav {
+  background-color: #f1f8ff; /* GitHub navigation background color */
+  padding: 10px;
+}
+
+nav a {
   text-decoration: none;
-  color: black;
+  color: #0366d6; /* GitHub link color */
+  margin: 0 10px;
 }
 
-a:hover {
-  color: #AFFF16;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.assign {
-  background-color: gray;
-  margin: 10px;
+.section {
+  background-color: #ffffff; /* GitHub section background color */
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #e1e4e8; /* GitHub border color */
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #24292e; /* GitHub footer background color */
+  color: #ffffff; /* GitHub footer text color */
+  text-align: center;
   padding: 10px;
-  display: flex;
-  border-radius: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-.assign img {
-  width: 200px;
-  padding: 10px;
-  border: 2px solid midnightblue;
-}
-
-.assign img:hover {
-  width: 200px;
-  padding: 10px;
-  border: 2px solid maroon;
-}
+/* Additional styles for links, buttons, etc. can be added as needed */
