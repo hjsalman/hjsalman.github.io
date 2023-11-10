@@ -1,18 +1,35 @@
 body {
-  background: cadetblue;
+  background: AFFF16;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
   color: black;
   text-align: center;
 }
-.assign {
-  display: flex;
-  padding: 10px;
-  margin: 10px;
-  background: white;
+a {
+text-decoration: none;
+color: black;
 }
-.assign img {
+a:hover {
+  color: #AFFF16;
+}
+
+.assign {
+ background-color: gray;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  border-radius: 20px
+
+}
+.assign img:{
   width: 200px;
   padding: 10px;
+  border: 2px solid midnightblue;
+}
+
+.assign img:hover {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid maroon;
 }
