@@ -13,8 +13,13 @@
         }
 
         .image-container {
-            max-width: 600px;
+            max-width: 400px;
             margin: 0 auto;
+            padding: 20px; /* Adjust padding as needed */
+            background-color: #fff; /* Optional: Add a background color */
+            border-radius: 8px; /* Optional: Add rounded corners to the container */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+            margin-bottom: 20px;
         }
 
         img {
@@ -22,15 +27,22 @@
             height: auto;
             display: block;
             margin: 0 auto;
-            margin-bottom: 20px;
             border-radius: 8px; /* Optional: Add rounded corners to images */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
         }
 
         p {
             text-align: center;
             font-size: 18px;
             color: #333;
+            margin-top: 10px; /* Adjust top margin as needed */
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 10px; /* Adjust top margin as needed */
+            color: #007BFF; /* Link color */
+            text-decoration: none;
         }
     </style>
     <title>Styled Images</title>
@@ -40,11 +52,13 @@
     <div class="image-container">
         <img src="path/to/your/image1.jpg" alt="Image 1">
         <p>Caption for Image 1</p>
+        <a href="#">Link 1</a>
     </div>
 
     <div class="image-container">
         <img src="path/to/your/image2.jpg" alt="Image 2">
         <p>Caption for Image 2</p>
+        <a href="#">Link 2</a>
     </div>
 
     <!-- Add more image-container divs for additional images -->
