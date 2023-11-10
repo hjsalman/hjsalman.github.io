@@ -1,7 +1,6 @@
 body {
-  background: #AFFF16;
+  background: AFFF16;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0; /* Remove default margin for the body */
 }
 
 h1 {
@@ -9,46 +8,22 @@ h1 {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
 
 a:hover {
   color: #AFFF16;
 }
 
 .assign {
-  background-color: gray;
+ background-color: gray;
   margin: 10px;
   padding: 10px;
   display: flex;
-  border-radius: 20px;
-  overflow: hidden; /* Hide overflowing content */
-}
+ 
 
-.assign img {
-  width: 100%; /* Make images fill their container */
-  height: auto; /* Maintain aspect ratio */
+}
+.assign img:{
+  width: 200px;
+  padding: 10px;
   border: 2px solid midnightblue;
-  transition: transform 0.3s ease; /* Add a transition for smoother changes */
 }
 
-.assign img:hover {
-  border: 2px solid maroon;
-  transform: scale(1.1); /* Scale up the image on hover */
-}
-
-.pdf-link {
-  display: block; /* Make the link a block element to take full width */
-  margin-top: 10px; /* Add space between images and PDF links */
-  text-align: center;
-}
-
-.pdf-link a {
-  color: black;
-}
-
-.pdf-link a:hover {
-  color: #AFFF16;
-}
