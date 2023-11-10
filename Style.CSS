@@ -2,8 +2,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa; /* Light background color */
-  color: #343a40; /* Dark text color */
+  background-color: #f8f9fa;
+  color: #343a40;
 }
 
 .container {
@@ -12,10 +12,10 @@ body {
 }
 
 header {
-  background-color: #007bff; /* Blue header background color */
+  background-color: #007bff;
   padding: 20px;
   text-align: center;
-  color: #ffffff; /* White header text color */
+  color: #ffffff;
 }
 
 h1 {
@@ -24,12 +24,12 @@ h1 {
 }
 
 .assign {
-  background-color: #ffffff; /* White background for each assignment section */
+  background-color: #ffffff;
   padding: 20px;
   margin: 20px 0;
-  border: 1px solid #dee2e6; /* Light border color */
+  border: 1px solid #dee2e6;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .assign img {
@@ -40,11 +40,11 @@ h1 {
 }
 
 .assign-det {
-  color: #495057; /* Dark text color for assignment details */
+  color: #495057;
 }
 
 a {
-  color: #007bff; /* Blue link color */
+  color: #007bff;
   text-decoration: none;
 }
 
@@ -53,13 +53,11 @@ a:hover {
 }
 
 footer {
-  background-color: #007bff; /* Blue footer background color */
-  color: #ffffff; /* White footer text color */
+  background-color: #007bff;
+  color: #ffffff;
   text-align: center;
   padding: 10px;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-
-/* Additional styles for links, buttons, etc. can be added as needed */
