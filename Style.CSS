@@ -1,5 +1,5 @@
 body {
-  background: AFFF16;
+  background: #AFFF16;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,8 +9,8 @@ h1 {
 }
 
 a {
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
@@ -18,21 +18,20 @@ a:hover {
 }
 
 .assign {
- background-color: gray;
+  background-color: gray;
   margin: 10px;
   padding: 10px;
   display: flex;
-  border-radius: 20px
-
+  border-radius: 20px;
 }
-.assign img:{
+
+.assign img,
+.assign img:hover {
   width: 200px;
   padding: 10px;
   border: 2px solid midnightblue;
 }
 
 .assign img:hover {
-  width: 200px;
-  padding: 10px;
   border: 2px solid maroon;
 }
