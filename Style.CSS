@@ -1,29 +1,43 @@
-body {
-  background: AFFF16;
-  font-family: Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Style to make images smaller */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            /* Optional: Add margin to provide space between images and text */
+            margin-bottom: 20px;
+        }
 
-h1 {
-  color: black;
-  text-align: center;
-}
+        /* Optional: Add additional styles for text next to the images */
+        .image-caption {
+            text-align: center; /* Adjust text alignment as needed */
+            font-size: 16px; /* Adjust font size as needed */
+            /* Optional: Add margin to provide space between images and text */
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Image Styling</title>
+</head>
+<body>
 
+    <!-- Example usage -->
+    <div class="image-caption">
+        <img src="path/to/your/image1.jpg" alt="Image 1">
+        <p>Caption for Image 1</p>
+    </div>
 
-a:hover {
-  color: #AFFF16;
-}
+    <div class="image-caption">
+        <img src="path/to/your/image2.jpg" alt="Image 2">
+        <p>Caption for Image 2</p>
+    </div>
 
-.assign {
- background-color: gray;
-  margin: 10px;
-  padding: 10px;
-  display: flex;
- 
+    <!-- Add more image-caption divs for additional images -->
 
-}
-.assign img:{
-  width: 200px;
-  padding: 10px;
-  border: 2px solid midnightblue;
-}
-
+</body>
+</html>
