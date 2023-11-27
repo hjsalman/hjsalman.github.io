@@ -1,19 +1,19 @@
 body {
-    background-color: #324851; /* A dark slate color for the background */
+    background-color: #0d1117; /* GitHub dark mode background */
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
 
 h1 {
-    color: #F5C6AA; /* A muted coral color for the headings */
+    color: #58a6ff; /* GitHub blue for titles */
     text-align: center;
     width: 100%;
     display: block;
 }
 
 h1:hover {
-    color: #7DA3A1; /* A soft teal color for the hover state */
+    color: #1f6feb; /* A darker GitHub blue for hover state */
     text-align: center;
     width: 100%;
     display: block;
@@ -21,27 +21,27 @@ h1:hover {
 
 a {
     text-decoration: none;
-    color: #EAE0D5; /* A pale off-white color for links */
+    color: #8b949e; /* GitHub secondary text color */
 }
 
 .assign {
-    background-color: #5D737E; /* A darker grey-blue for the assignment boxes */
+    background-color: #161b22; /* GitHub dark mode element background */
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
     width: 20%;
-    box-shadow: 4px 4px #0B2027; /* A very dark blue for the shadow to add depth */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6); /* Subtle shadow for depth */
     display: block; /* instead of flex */
 }
 
 .assign img {
     width: 200px;
     margin: 10px;
-    border: 2px solid #C9D6DF; /* A lighter grey-blue for a subtle border */
+    border: 2px solid #30363d; /* GitHub border color for dark elements */
 }
 
 .assign img:hover {
     width: 200px;
     margin: 10px;
-    border: 2px dotted #F4F4F9; /* A very light grey to contrast the hover effect */
+    border: 2px dotted #58a6ff; /* GitHub blue for hover effect on images */
 }
