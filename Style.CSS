@@ -29,21 +29,19 @@ a {
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
-    width: 20%;
+    width: 40%; /* Increased width for the container */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Shadow for depth */
     display: block; /* instead of flex */
+    overflow: hidden; /* Prevents the image from spilling out of the box */
 }
 
 .assign img {
-    width: 250px; /* Increased width for the images */
+    width: 100%; /* Make image width responsive to the container */
     height: auto; /* Auto height to maintain aspect ratio */
-    margin: 10px;
+    margin: 10px 0; /* Adjusted margin to remove horizontal margins */
     border: 2px solid #d3d3d3; /* Lighter gray for a subtle border */
 }
 
 .assign img:hover {
-    width: 250px; /* Maintain the same width on hover */
-    height: auto; /* Auto height to maintain aspect ratio */
-    margin: 10px;
     border: 2px dotted #00008b; /* Dark blue for the hover effect on images */
 }
