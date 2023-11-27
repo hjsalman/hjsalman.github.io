@@ -35,13 +35,15 @@ a {
 }
 
 .assign img {
-    width: 200px;
+    width: 250px; /* Increased width for the images */
+    height: auto; /* Auto height to maintain aspect ratio */
     margin: 10px;
     border: 2px solid #d3d3d3; /* Lighter gray for a subtle border */
 }
 
 .assign img:hover {
-    width: 200px;
+    width: 250px; /* Maintain the same width on hover */
+    height: auto; /* Auto height to maintain aspect ratio */
     margin: 10px;
     border: 2px dotted #00008b; /* Dark blue for the hover effect on images */
 }
